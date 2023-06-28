@@ -1,0 +1,274 @@
+[
+    {
+        "label": "print_function",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "load_data_shuffle",
+        "importPath": "load_data",
+        "description": "load_data",
+        "isExtraImport": true,
+        "detail": "load_data",
+        "documentation": {}
+    },
+    {
+        "label": "backend",
+        "importPath": "keras",
+        "description": "keras",
+        "isExtraImport": true,
+        "detail": "keras",
+        "documentation": {}
+    },
+    {
+        "label": "Dense",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Dropout",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Lambda",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Embedding",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Conv1D",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "LSTM",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Input",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "concatenate",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Sequential",
+        "importPath": "keras.models",
+        "description": "keras.models",
+        "isExtraImport": true,
+        "detail": "keras.models",
+        "documentation": {}
+    },
+    {
+        "label": "Model",
+        "importPath": "keras.models",
+        "description": "keras.models",
+        "isExtraImport": true,
+        "detail": "keras.models",
+        "documentation": {}
+    },
+    {
+        "label": "ModelCheckpoint",
+        "importPath": "keras.callbacks",
+        "description": "keras.callbacks",
+        "isExtraImport": true,
+        "detail": "keras.callbacks",
+        "documentation": {}
+    },
+    {
+        "label": "Adadelta",
+        "importPath": "keras.optimizers",
+        "description": "keras.optimizers",
+        "isExtraImport": true,
+        "detail": "keras.optimizers",
+        "documentation": {}
+    },
+    {
+        "label": "pad_sequences",
+        "importPath": "keras.utils",
+        "description": "keras.utils",
+        "isExtraImport": true,
+        "detail": "keras.utils",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "pickle",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pickle",
+        "description": "pickle",
+        "detail": "pickle",
+        "documentation": {}
+    },
+    {
+        "label": "sys.stdout",
+        "kind": 5,
+        "importPath": "cnn_lstm",
+        "description": "cnn_lstm",
+        "peekOfCode": "sys.stdout = open(sys.stdout.fileno(), mode='w', encoding='utf8', buffering=1)\n# Thiết lập các thông số:\nnp.random.seed(1337)  # để tái tạo kết quả\nmax_features = 21540  # 14300\nmaxlen = 400\nbatch_size = 10\nembedding_dims = 200\nnb_filter = 150\nfilter_length = 3\nhidden_dims = 100",
+        "detail": "cnn_lstm",
+        "documentation": {}
+    },
+    {
+        "label": "max_features",
+        "kind": 5,
+        "importPath": "cnn_lstm",
+        "description": "cnn_lstm",
+        "peekOfCode": "max_features = 21540  # 14300\nmaxlen = 400\nbatch_size = 10\nembedding_dims = 200\nnb_filter = 150\nfilter_length = 3\nhidden_dims = 100\nnb_epoch = 14\nfor x in range(10):\n    cvs = [1, 2, 3, 4, 5]",
+        "detail": "cnn_lstm",
+        "documentation": {}
+    },
+    {
+        "label": "maxlen",
+        "kind": 5,
+        "importPath": "cnn_lstm",
+        "description": "cnn_lstm",
+        "peekOfCode": "maxlen = 400\nbatch_size = 10\nembedding_dims = 200\nnb_filter = 150\nfilter_length = 3\nhidden_dims = 100\nnb_epoch = 14\nfor x in range(10):\n    cvs = [1, 2, 3, 4, 5]\n    accs = []",
+        "detail": "cnn_lstm",
+        "documentation": {}
+    },
+    {
+        "label": "batch_size",
+        "kind": 5,
+        "importPath": "cnn_lstm",
+        "description": "cnn_lstm",
+        "peekOfCode": "batch_size = 10\nembedding_dims = 200\nnb_filter = 150\nfilter_length = 3\nhidden_dims = 100\nnb_epoch = 14\nfor x in range(10):\n    cvs = [1, 2, 3, 4, 5]\n    accs = []\n    for cv in cvs:",
+        "detail": "cnn_lstm",
+        "documentation": {}
+    },
+    {
+        "label": "embedding_dims",
+        "kind": 5,
+        "importPath": "cnn_lstm",
+        "description": "cnn_lstm",
+        "peekOfCode": "embedding_dims = 200\nnb_filter = 150\nfilter_length = 3\nhidden_dims = 100\nnb_epoch = 14\nfor x in range(10):\n    cvs = [1, 2, 3, 4, 5]\n    accs = []\n    for cv in cvs:\n        print(f'Đang tải dữ liệu cho cv...{cv}')",
+        "detail": "cnn_lstm",
+        "documentation": {}
+    },
+    {
+        "label": "nb_filter",
+        "kind": 5,
+        "importPath": "cnn_lstm",
+        "description": "cnn_lstm",
+        "peekOfCode": "nb_filter = 150\nfilter_length = 3\nhidden_dims = 100\nnb_epoch = 14\nfor x in range(10):\n    cvs = [1, 2, 3, 4, 5]\n    accs = []\n    for cv in cvs:\n        print(f'Đang tải dữ liệu cho cv...{cv}')\n        X_train, y_train, X_test, y_test, X_val, y_val = load_data_shuffle(cv)",
+        "detail": "cnn_lstm",
+        "documentation": {}
+    },
+    {
+        "label": "filter_length",
+        "kind": 5,
+        "importPath": "cnn_lstm",
+        "description": "cnn_lstm",
+        "peekOfCode": "filter_length = 3\nhidden_dims = 100\nnb_epoch = 14\nfor x in range(10):\n    cvs = [1, 2, 3, 4, 5]\n    accs = []\n    for cv in cvs:\n        print(f'Đang tải dữ liệu cho cv...{cv}')\n        X_train, y_train, X_test, y_test, X_val, y_val = load_data_shuffle(cv)\n        print(f'Độ dài chuỗi dữ liệu huấn luyện: {len(X_train)}')",
+        "detail": "cnn_lstm",
+        "documentation": {}
+    },
+    {
+        "label": "hidden_dims",
+        "kind": 5,
+        "importPath": "cnn_lstm",
+        "description": "cnn_lstm",
+        "peekOfCode": "hidden_dims = 100\nnb_epoch = 14\nfor x in range(10):\n    cvs = [1, 2, 3, 4, 5]\n    accs = []\n    for cv in cvs:\n        print(f'Đang tải dữ liệu cho cv...{cv}')\n        X_train, y_train, X_test, y_test, X_val, y_val = load_data_shuffle(cv)\n        print(f'Độ dài chuỗi dữ liệu huấn luyện: {len(X_train)}')\n        print(f'Độ dài chuỗi dữ liệu kiểm tra: {len(X_test)}')",
+        "detail": "cnn_lstm",
+        "documentation": {}
+    },
+    {
+        "label": "nb_epoch",
+        "kind": 5,
+        "importPath": "cnn_lstm",
+        "description": "cnn_lstm",
+        "peekOfCode": "nb_epoch = 14\nfor x in range(10):\n    cvs = [1, 2, 3, 4, 5]\n    accs = []\n    for cv in cvs:\n        print(f'Đang tải dữ liệu cho cv...{cv}')\n        X_train, y_train, X_test, y_test, X_val, y_val = load_data_shuffle(cv)\n        print(f'Độ dài chuỗi dữ liệu huấn luyện: {len(X_train)}')\n        print(f'Độ dài chuỗi dữ liệu kiểm tra: {len(X_test)}')\n        X_train = pad_sequences(X_train, maxlen=maxlen)",
+        "detail": "cnn_lstm",
+        "documentation": {}
+    },
+    {
+        "label": "load_data_shuffle",
+        "kind": 2,
+        "importPath": "load_data",
+        "description": "load_data",
+        "peekOfCode": "def load_data_shuffle(cv):\n    train_pos_save = f\"data/data_not_token/fold_{cv}/train_pos.npy\"\n    train_pos_save = f\"data/data_not_token/fold_{cv}/train_neg.npy\"\n    train_pos_save = f\"data/data_not_token/fold_{cv}/train_neu.npy\"\n    test_pos_save = f\"data/data_not_token/fold_{cv}/test_pos.npy\"\n    test_neg_save = f\"data/data_not_token/fold_{cv}/test_neg.npy\"\n    test_neu_save = f\"data/data_not_token/fold_{cv}/test_neu.npy\"\n    # Load dữ liệu train\n    pos_train = np.load(train_pos_save, encoding='bytes', allow_pickle=True)\n    neg_train = np.load(train_pos_save, encoding='bytes', allow_pickle=True)",
+        "detail": "load_data",
+        "documentation": {}
+    },
+    {
+        "label": "sys.stdout",
+        "kind": 5,
+        "importPath": "preprocessing",
+        "description": "preprocessing",
+        "peekOfCode": "sys.stdout = open(sys.stdout.fileno(), mode='w', encoding='utf8')\ncvs = [1, 2, 3, 4, 5]\nfor cv in cvs:\n    word2id = {}\n    id2word = {}\n    index = 1\n    maxlen = 0\n    avglen = 0\n    count100 = 0\n    # Đường dẫn file",
+        "detail": "preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "cvs",
+        "kind": 5,
+        "importPath": "preprocessing",
+        "description": "preprocessing",
+        "peekOfCode": "cvs = [1, 2, 3, 4, 5]\nfor cv in cvs:\n    word2id = {}\n    id2word = {}\n    index = 1\n    maxlen = 0\n    avglen = 0\n    count100 = 0\n    # Đường dẫn file\n    train_pos_file = f\"data/data_not_token/fold_{cv}/train_nhan_1.txt\"",
+        "detail": "preprocessing",
+        "documentation": {}
+    }
+]
