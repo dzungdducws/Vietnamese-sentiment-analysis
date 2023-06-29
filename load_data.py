@@ -4,13 +4,13 @@ import pickle
 
 
 def load_data_shuffle(cv):
-    train_pos_save = f"data/data_not_token/fold_{cv}/train_pos.npy"
-    train_pos_save = f"data/data_not_token/fold_{cv}/train_neg.npy"
-    train_pos_save = f"data/data_not_token/fold_{cv}/train_neu.npy"
+    train_pos_save = f"data/data_token/fold_{cv}/train_pos.npy"
+    train_pos_save = f"data/data_token/fold_{cv}/train_neg.npy"
+    train_pos_save = f"data/data_token/fold_{cv}/train_neu.npy"
 
-    test_pos_save = f"data/data_not_token/fold_{cv}/test_pos.npy"
-    test_neg_save = f"data/data_not_token/fold_{cv}/test_neg.npy"
-    test_neu_save = f"data/data_not_token/fold_{cv}/test_neu.npy"
+    test_pos_save = f"data/data_token/fold_{cv}/test_pos.npy"
+    test_neg_save = f"data/data_token/fold_{cv}/test_neg.npy"
+    test_neu_save = f"data/data_token/fold_{cv}/test_neu.npy"
 
     # Load dữ liệu train
     pos_train = np.load(train_pos_save, encoding='bytes', allow_pickle=True)
