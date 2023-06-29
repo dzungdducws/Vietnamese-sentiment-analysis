@@ -177,7 +177,7 @@
         "kind": 5,
         "importPath": "cnn_lstm",
         "description": "cnn_lstm",
-        "peekOfCode": "max_features = 21540  # 14300\nmaxlen = 400\nbatch_size = 10\nembedding_dims = 200\nnb_filter = 150\nfilter_length = 3\nhidden_dims = 100\nnb_epoch = 14\nfor x in range(10):\n    cvs = [1, 2, 3, 4, 5]",
+        "peekOfCode": "max_features = 21540  # 14300\nmaxlen = 400\nbatch_size = 10\nembedding_dims = 200\nnb_filter = 150\nfilter_length = 3\nhidden_dims = 100\nnb_epoch = 14\ncvs = [1, 2, 3, 4, 5]\naccs = []",
         "detail": "cnn_lstm",
         "documentation": {}
     },
@@ -186,7 +186,7 @@
         "kind": 5,
         "importPath": "cnn_lstm",
         "description": "cnn_lstm",
-        "peekOfCode": "maxlen = 400\nbatch_size = 10\nembedding_dims = 200\nnb_filter = 150\nfilter_length = 3\nhidden_dims = 100\nnb_epoch = 14\nfor x in range(10):\n    cvs = [1, 2, 3, 4, 5]\n    accs = []",
+        "peekOfCode": "maxlen = 400\nbatch_size = 10\nembedding_dims = 200\nnb_filter = 150\nfilter_length = 3\nhidden_dims = 100\nnb_epoch = 14\ncvs = [1, 2, 3, 4, 5]\naccs = []\nfor cv in cvs:",
         "detail": "cnn_lstm",
         "documentation": {}
     },
@@ -195,7 +195,7 @@
         "kind": 5,
         "importPath": "cnn_lstm",
         "description": "cnn_lstm",
-        "peekOfCode": "batch_size = 10\nembedding_dims = 200\nnb_filter = 150\nfilter_length = 3\nhidden_dims = 100\nnb_epoch = 14\nfor x in range(10):\n    cvs = [1, 2, 3, 4, 5]\n    accs = []\n    for cv in cvs:",
+        "peekOfCode": "batch_size = 10\nembedding_dims = 200\nnb_filter = 150\nfilter_length = 3\nhidden_dims = 100\nnb_epoch = 14\ncvs = [1, 2, 3, 4, 5]\naccs = []\nfor cv in cvs:\n    print(f'Đang tải dữ liệu cho cv...{cv}')",
         "detail": "cnn_lstm",
         "documentation": {}
     },
@@ -204,7 +204,7 @@
         "kind": 5,
         "importPath": "cnn_lstm",
         "description": "cnn_lstm",
-        "peekOfCode": "embedding_dims = 200\nnb_filter = 150\nfilter_length = 3\nhidden_dims = 100\nnb_epoch = 14\nfor x in range(10):\n    cvs = [1, 2, 3, 4, 5]\n    accs = []\n    for cv in cvs:\n        print(f'Đang tải dữ liệu cho cv...{cv}')",
+        "peekOfCode": "embedding_dims = 200\nnb_filter = 150\nfilter_length = 3\nhidden_dims = 100\nnb_epoch = 14\ncvs = [1, 2, 3, 4, 5]\naccs = []\nfor cv in cvs:\n    print(f'Đang tải dữ liệu cho cv...{cv}')\n    X_train, y_train, X_test, y_test, X_val, y_val = load_data_shuffle(cv)",
         "detail": "cnn_lstm",
         "documentation": {}
     },
@@ -213,7 +213,7 @@
         "kind": 5,
         "importPath": "cnn_lstm",
         "description": "cnn_lstm",
-        "peekOfCode": "nb_filter = 150\nfilter_length = 3\nhidden_dims = 100\nnb_epoch = 14\nfor x in range(10):\n    cvs = [1, 2, 3, 4, 5]\n    accs = []\n    for cv in cvs:\n        print(f'Đang tải dữ liệu cho cv...{cv}')\n        X_train, y_train, X_test, y_test, X_val, y_val = load_data_shuffle(cv)",
+        "peekOfCode": "nb_filter = 150\nfilter_length = 3\nhidden_dims = 100\nnb_epoch = 14\ncvs = [1, 2, 3, 4, 5]\naccs = []\nfor cv in cvs:\n    print(f'Đang tải dữ liệu cho cv...{cv}')\n    X_train, y_train, X_test, y_test, X_val, y_val = load_data_shuffle(cv)\n    print(f'Độ dài chuỗi dữ liệu huấn luyện: {len(X_train)}')",
         "detail": "cnn_lstm",
         "documentation": {}
     },
@@ -222,7 +222,7 @@
         "kind": 5,
         "importPath": "cnn_lstm",
         "description": "cnn_lstm",
-        "peekOfCode": "filter_length = 3\nhidden_dims = 100\nnb_epoch = 14\nfor x in range(10):\n    cvs = [1, 2, 3, 4, 5]\n    accs = []\n    for cv in cvs:\n        print(f'Đang tải dữ liệu cho cv...{cv}')\n        X_train, y_train, X_test, y_test, X_val, y_val = load_data_shuffle(cv)\n        print(f'Độ dài chuỗi dữ liệu huấn luyện: {len(X_train)}')",
+        "peekOfCode": "filter_length = 3\nhidden_dims = 100\nnb_epoch = 14\ncvs = [1, 2, 3, 4, 5]\naccs = []\nfor cv in cvs:\n    print(f'Đang tải dữ liệu cho cv...{cv}')\n    X_train, y_train, X_test, y_test, X_val, y_val = load_data_shuffle(cv)\n    print(f'Độ dài chuỗi dữ liệu huấn luyện: {len(X_train)}')\n    print(f'Độ dài chuỗi dữ liệu kiểm tra: {len(X_test)}')",
         "detail": "cnn_lstm",
         "documentation": {}
     },
@@ -231,7 +231,7 @@
         "kind": 5,
         "importPath": "cnn_lstm",
         "description": "cnn_lstm",
-        "peekOfCode": "hidden_dims = 100\nnb_epoch = 14\nfor x in range(10):\n    cvs = [1, 2, 3, 4, 5]\n    accs = []\n    for cv in cvs:\n        print(f'Đang tải dữ liệu cho cv...{cv}')\n        X_train, y_train, X_test, y_test, X_val, y_val = load_data_shuffle(cv)\n        print(f'Độ dài chuỗi dữ liệu huấn luyện: {len(X_train)}')\n        print(f'Độ dài chuỗi dữ liệu kiểm tra: {len(X_test)}')",
+        "peekOfCode": "hidden_dims = 100\nnb_epoch = 14\ncvs = [1, 2, 3, 4, 5]\naccs = []\nfor cv in cvs:\n    print(f'Đang tải dữ liệu cho cv...{cv}')\n    X_train, y_train, X_test, y_test, X_val, y_val = load_data_shuffle(cv)\n    print(f'Độ dài chuỗi dữ liệu huấn luyện: {len(X_train)}')\n    print(f'Độ dài chuỗi dữ liệu kiểm tra: {len(X_test)}')\n    X_train = pad_sequences(X_train, maxlen=maxlen)",
         "detail": "cnn_lstm",
         "documentation": {}
     },
@@ -240,7 +240,25 @@
         "kind": 5,
         "importPath": "cnn_lstm",
         "description": "cnn_lstm",
-        "peekOfCode": "nb_epoch = 14\nfor x in range(10):\n    cvs = [1, 2, 3, 4, 5]\n    accs = []\n    for cv in cvs:\n        print(f'Đang tải dữ liệu cho cv...{cv}')\n        X_train, y_train, X_test, y_test, X_val, y_val = load_data_shuffle(cv)\n        print(f'Độ dài chuỗi dữ liệu huấn luyện: {len(X_train)}')\n        print(f'Độ dài chuỗi dữ liệu kiểm tra: {len(X_test)}')\n        X_train = pad_sequences(X_train, maxlen=maxlen)",
+        "peekOfCode": "nb_epoch = 14\ncvs = [1, 2, 3, 4, 5]\naccs = []\nfor cv in cvs:\n    print(f'Đang tải dữ liệu cho cv...{cv}')\n    X_train, y_train, X_test, y_test, X_val, y_val = load_data_shuffle(cv)\n    print(f'Độ dài chuỗi dữ liệu huấn luyện: {len(X_train)}')\n    print(f'Độ dài chuỗi dữ liệu kiểm tra: {len(X_test)}')\n    X_train = pad_sequences(X_train, maxlen=maxlen)\n    X_test = pad_sequences(X_test, maxlen=maxlen)",
+        "detail": "cnn_lstm",
+        "documentation": {}
+    },
+    {
+        "label": "cvs",
+        "kind": 5,
+        "importPath": "cnn_lstm",
+        "description": "cnn_lstm",
+        "peekOfCode": "cvs = [1, 2, 3, 4, 5]\naccs = []\nfor cv in cvs:\n    print(f'Đang tải dữ liệu cho cv...{cv}')\n    X_train, y_train, X_test, y_test, X_val, y_val = load_data_shuffle(cv)\n    print(f'Độ dài chuỗi dữ liệu huấn luyện: {len(X_train)}')\n    print(f'Độ dài chuỗi dữ liệu kiểm tra: {len(X_test)}')\n    X_train = pad_sequences(X_train, maxlen=maxlen)\n    X_test = pad_sequences(X_test, maxlen=maxlen)\n    X_val = pad_sequences(X_val, maxlen=maxlen)",
+        "detail": "cnn_lstm",
+        "documentation": {}
+    },
+    {
+        "label": "accs",
+        "kind": 5,
+        "importPath": "cnn_lstm",
+        "description": "cnn_lstm",
+        "peekOfCode": "accs = []\nfor cv in cvs:\n    print(f'Đang tải dữ liệu cho cv...{cv}')\n    X_train, y_train, X_test, y_test, X_val, y_val = load_data_shuffle(cv)\n    print(f'Độ dài chuỗi dữ liệu huấn luyện: {len(X_train)}')\n    print(f'Độ dài chuỗi dữ liệu kiểm tra: {len(X_test)}')\n    X_train = pad_sequences(X_train, maxlen=maxlen)\n    X_test = pad_sequences(X_test, maxlen=maxlen)\n    X_val = pad_sequences(X_val, maxlen=maxlen)\n    print(f'Kích thước X_train: {X_train.shape}')",
         "detail": "cnn_lstm",
         "documentation": {}
     },
@@ -249,7 +267,7 @@
         "kind": 2,
         "importPath": "load_data",
         "description": "load_data",
-        "peekOfCode": "def load_data_shuffle(cv):\n    train_pos_save = f\"data/data_not_token/fold_{cv}/train_pos.npy\"\n    train_pos_save = f\"data/data_not_token/fold_{cv}/train_neg.npy\"\n    train_pos_save = f\"data/data_not_token/fold_{cv}/train_neu.npy\"\n    test_pos_save = f\"data/data_not_token/fold_{cv}/test_pos.npy\"\n    test_neg_save = f\"data/data_not_token/fold_{cv}/test_neg.npy\"\n    test_neu_save = f\"data/data_not_token/fold_{cv}/test_neu.npy\"\n    # Load dữ liệu train\n    pos_train = np.load(train_pos_save, encoding='bytes', allow_pickle=True)\n    neg_train = np.load(train_pos_save, encoding='bytes', allow_pickle=True)",
+        "peekOfCode": "def load_data_shuffle(cv):\n    train_pos_save = f\"data/data_token/fold_{cv}/train_pos.npy\"\n    train_pos_save = f\"data/data_token/fold_{cv}/train_neg.npy\"\n    train_pos_save = f\"data/data_token/fold_{cv}/train_neu.npy\"\n    test_pos_save = f\"data/data_token/fold_{cv}/test_pos.npy\"\n    test_neg_save = f\"data/data_token/fold_{cv}/test_neg.npy\"\n    test_neu_save = f\"data/data_token/fold_{cv}/test_neu.npy\"\n    # Load dữ liệu train\n    pos_train = np.load(train_pos_save, encoding='bytes', allow_pickle=True)\n    neg_train = np.load(train_pos_save, encoding='bytes', allow_pickle=True)",
         "detail": "load_data",
         "documentation": {}
     },
@@ -267,7 +285,7 @@
         "kind": 5,
         "importPath": "preprocessing",
         "description": "preprocessing",
-        "peekOfCode": "cvs = [1, 2, 3, 4, 5]\nfor cv in cvs:\n    word2id = {}\n    id2word = {}\n    index = 1\n    maxlen = 0\n    avglen = 0\n    count100 = 0\n    # Đường dẫn file\n    train_pos_file = f\"data/data_not_token/fold_{cv}/train_nhan_1.txt\"",
+        "peekOfCode": "cvs = [1, 2, 3, 4, 5]\nfor cv in cvs:\n    word2id = {}\n    id2word = {}\n    index = 1\n    maxlen = 0\n    avglen = 0\n    count100 = 0\n    # Đường dẫn file\n    train_pos_file = f\"data/data_token/fold_{cv}/train_nhan_1.txt\"",
         "detail": "preprocessing",
         "documentation": {}
     }

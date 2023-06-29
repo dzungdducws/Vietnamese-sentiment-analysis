@@ -1,0 +1,4 @@
+data/**/*.npy
+CNN-LSTM-weights/*
+__pycache__
+.vscode
