@@ -1,26 +1,143 @@
 [
     {
-        "label": "print_function",
-        "importPath": "__future__",
-        "description": "__future__",
+        "label": "ViTokenizer",
+        "importPath": "pyvi",
+        "description": "pyvi",
         "isExtraImport": true,
-        "detail": "__future__",
+        "detail": "pyvi",
         "documentation": {}
     },
     {
-        "label": "load_data_shuffle",
-        "importPath": "load_data",
-        "description": "load_data",
+        "label": "ViPosTagger",
+        "importPath": "pyvi",
+        "description": "pyvi",
         "isExtraImport": true,
-        "detail": "load_data",
+        "detail": "pyvi",
         "documentation": {}
     },
     {
-        "label": "backend",
-        "importPath": "keras",
-        "description": "keras",
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
         "isExtraImport": true,
-        "detail": "keras",
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "gensim",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "gensim",
+        "description": "gensim",
+        "detail": "gensim",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "pickle",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pickle",
+        "description": "pickle",
+        "detail": "pickle",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "TfidfVectorizer",
+        "importPath": "sklearn.feature_extraction.text",
+        "description": "sklearn.feature_extraction.text",
+        "isExtraImport": true,
+        "detail": "sklearn.feature_extraction.text",
+        "documentation": {}
+    },
+    {
+        "label": "CountVectorizer",
+        "importPath": "sklearn.feature_extraction.text",
+        "description": "sklearn.feature_extraction.text",
+        "isExtraImport": true,
+        "detail": "sklearn.feature_extraction.text",
+        "documentation": {}
+    },
+    {
+        "label": "Dense",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Dropout",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Lambda",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Embedding",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Conv1D",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "LSTM",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Input",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
         "documentation": {}
     },
     {
@@ -88,6 +205,103 @@
         "documentation": {}
     },
     {
+        "label": "keras",
+        "importPath": "tensorflow",
+        "description": "tensorflow",
+        "isExtraImport": true,
+        "detail": "tensorflow",
+        "documentation": {}
+    },
+    {
+        "label": "accuracy_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "TruncatedSVD",
+        "importPath": "sklearn.decomposition",
+        "description": "sklearn.decomposition",
+        "isExtraImport": true,
+        "detail": "sklearn.decomposition",
+        "documentation": {}
+    },
+    {
+        "label": "sklearn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sklearn",
+        "description": "sklearn",
+        "detail": "sklearn",
+        "documentation": {}
+    },
+    {
+        "label": "preprocessing",
+        "importPath": "sklearn",
+        "description": "sklearn",
+        "isExtraImport": true,
+        "detail": "sklearn",
+        "documentation": {}
+    },
+    {
+        "label": "GaussianNB",
+        "importPath": "sklearn.naive_bayes",
+        "description": "sklearn.naive_bayes",
+        "isExtraImport": true,
+        "detail": "sklearn.naive_bayes",
+        "documentation": {}
+    },
+    {
+        "label": "MultinomialNB",
+        "importPath": "sklearn.naive_bayes",
+        "description": "sklearn.naive_bayes",
+        "isExtraImport": true,
+        "detail": "sklearn.naive_bayes",
+        "documentation": {}
+    },
+    {
+        "label": "BernoulliNB",
+        "importPath": "sklearn.naive_bayes",
+        "description": "sklearn.naive_bayes",
+        "isExtraImport": true,
+        "detail": "sklearn.naive_bayes",
+        "documentation": {}
+    },
+    {
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "print_function",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "load_data_shuffle",
+        "importPath": "load_data",
+        "description": "load_data",
+        "isExtraImport": true,
+        "detail": "load_data",
+        "documentation": {}
+    },
+    {
+        "label": "backend",
+        "importPath": "keras",
+        "description": "keras",
+        "isExtraImport": true,
+        "detail": "keras",
+        "documentation": {}
+    },
+    {
         "label": "Sequential",
         "importPath": "keras.models",
         "description": "keras.models",
@@ -128,39 +342,264 @@
         "documentation": {}
     },
     {
-        "label": "numpy",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "numpy",
-        "description": "numpy",
-        "detail": "numpy",
+        "label": "get_data",
+        "kind": 2,
+        "importPath": "kien.handle",
+        "description": "kien.handle",
+        "peekOfCode": "def get_data(folder_path):\n    X = []\n    y = []\n    dirs = os.listdir(folder_path)\n    for path in tqdm(dirs):\n        file_paths = os.listdir(os.path.join(folder_path, path))\n        for file_path in tqdm(file_paths):\n            with open(os.path.join(folder_path, path, file_path), 'r', encoding=\"utf-8\") as f:\n                lines = f.readlines()\n                lines = ' '.join(lines)",
+        "detail": "kien.handle",
         "documentation": {}
     },
     {
-        "label": "sys",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
+        "label": "sys.stdout",
+        "kind": 5,
+        "importPath": "kien.handle",
+        "description": "kien.handle",
+        "peekOfCode": "sys.stdout = open(sys.stdout.fileno(), mode='w', encoding='utf8')\ndir_path = os.path.dirname(os.path.realpath(os.getcwd()))\ndir_path = os.path.join(dir_path)\nstop_words = ['ma', 'anh', 'em', 'vì', 'thế', 'nhưng']\ndef get_data(folder_path):\n    X = []\n    y = []\n    dirs = os.listdir(folder_path)\n    for path in tqdm(dirs):\n        file_paths = os.listdir(os.path.join(folder_path, path))",
+        "detail": "kien.handle",
         "documentation": {}
     },
     {
-        "label": "os",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
+        "label": "dir_path",
+        "kind": 5,
+        "importPath": "kien.handle",
+        "description": "kien.handle",
+        "peekOfCode": "dir_path = os.path.dirname(os.path.realpath(os.getcwd()))\ndir_path = os.path.join(dir_path)\nstop_words = ['ma', 'anh', 'em', 'vì', 'thế', 'nhưng']\ndef get_data(folder_path):\n    X = []\n    y = []\n    dirs = os.listdir(folder_path)\n    for path in tqdm(dirs):\n        file_paths = os.listdir(os.path.join(folder_path, path))\n        for file_path in tqdm(file_paths):",
+        "detail": "kien.handle",
         "documentation": {}
     },
     {
-        "label": "pickle",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pickle",
-        "description": "pickle",
-        "detail": "pickle",
+        "label": "dir_path",
+        "kind": 5,
+        "importPath": "kien.handle",
+        "description": "kien.handle",
+        "peekOfCode": "dir_path = os.path.join(dir_path)\nstop_words = ['ma', 'anh', 'em', 'vì', 'thế', 'nhưng']\ndef get_data(folder_path):\n    X = []\n    y = []\n    dirs = os.listdir(folder_path)\n    for path in tqdm(dirs):\n        file_paths = os.listdir(os.path.join(folder_path, path))\n        for file_path in tqdm(file_paths):\n            with open(os.path.join(folder_path, path, file_path), 'r', encoding=\"utf-8\") as f:",
+        "detail": "kien.handle",
+        "documentation": {}
+    },
+    {
+        "label": "stop_words",
+        "kind": 5,
+        "importPath": "kien.handle",
+        "description": "kien.handle",
+        "peekOfCode": "stop_words = ['ma', 'anh', 'em', 'vì', 'thế', 'nhưng']\ndef get_data(folder_path):\n    X = []\n    y = []\n    dirs = os.listdir(folder_path)\n    for path in tqdm(dirs):\n        file_paths = os.listdir(os.path.join(folder_path, path))\n        for file_path in tqdm(file_paths):\n            with open(os.path.join(folder_path, path, file_path), 'r', encoding=\"utf-8\") as f:\n                lines = f.readlines()",
+        "detail": "kien.handle",
+        "documentation": {}
+    },
+    {
+        "label": "dir",
+        "kind": 5,
+        "importPath": "kien.handle",
+        "description": "kien.handle",
+        "peekOfCode": "dir = \"D:\\\\prj khai pha web\\\\Vietnamese sentiment analysis\\\\kien\\\\\"\ntrain_path = os.path.join(dir + 'test_data\\\\test_data') #train\nX_data, y_data = get_data(train_path)\npickle.dump(X_data, open('X_data_test.pkl', 'wb'))\npickle.dump(y_data, open('y_data_test.pkl', 'wb'))\nprint(X_data, y_data)",
+        "detail": "kien.handle",
+        "documentation": {}
+    },
+    {
+        "label": "train_path",
+        "kind": 5,
+        "importPath": "kien.handle",
+        "description": "kien.handle",
+        "peekOfCode": "train_path = os.path.join(dir + 'test_data\\\\test_data') #train\nX_data, y_data = get_data(train_path)\npickle.dump(X_data, open('X_data_test.pkl', 'wb'))\npickle.dump(y_data, open('y_data_test.pkl', 'wb'))\nprint(X_data, y_data)",
+        "detail": "kien.handle",
+        "documentation": {}
+    },
+    {
+        "label": "train_model",
+        "kind": 2,
+        "importPath": "kien.main",
+        "description": "kien.main",
+        "peekOfCode": "def train_model(classifier, X_data, y_data, X_test, y_test, is_neuralnet=False, n_epochs=5):       \n    X_train, X_val, y_train, y_val = train_test_split(X_data, y_data, test_size=0.1, random_state=42)\n    if is_neuralnet:\n        classifier.fit(X_train, y_train, validation_data=(X_val, y_val), epochs=n_epochs, batch_size=256)\n        val_predictions = classifier.predict(X_val)\n        test_predictions = classifier.predict(X_test)\n        val_predictions = val_predictions.argmax(axis=-1)\n        test_predictions = test_predictions.argmax(axis=-1)\n        filename = 'cnn.pkl'\n        with open(filename, 'wb') as file:",
+        "detail": "kien.main",
+        "documentation": {}
+    },
+    {
+        "label": "create_dnn_model",
+        "kind": 2,
+        "importPath": "kien.main",
+        "description": "kien.main",
+        "peekOfCode": "def create_dnn_model():\n    input_layer = Input(shape=(300,))\n    layer = Dense(1024, activation='relu')(input_layer)\n    layer = Dense(1024, activation='relu')(layer)\n    layer = Dense(512, activation='relu')(layer)\n    output_layer = Dense(10, activation='softmax')(layer)\n    classifier = keras.Model(input_layer, output_layer)\n    classifier.compile(optimizer=keras.optimizers.Adam(), loss='sparse_categorical_crossentropy', metrics=['accuracy'])\n    train_model(classifier=classifier, X_data=X_data_tfidf_svd, y_data=y_data_n, X_test=X_test_tfidf_svd, y_test=y_test_n, is_neuralnet=True)\n#chạy naive bayes",
+        "detail": "kien.main",
+        "documentation": {}
+    },
+    {
+        "label": "text_label",
+        "kind": 5,
+        "importPath": "kien.main",
+        "description": "kien.main",
+        "peekOfCode": "text_label = 'positive'\nX_data = pickle.load(open('X_data.pkl', 'rb'))\ny_data = pickle.load(open('y_data.pkl', 'rb'))\nX_test = pickle.load(open('X_data_test.pkl', 'rb'))\nX_test.append(text_test)\ny_test = pickle.load(open('y_data_test.pkl', 'rb'))\ny_test.append(text_label)\n# create a count vectorizer object \ncount_vect = CountVectorizer(analyzer='word', token_pattern=r'\\w{1,}')\ncount_vect.fit(X_data)",
+        "detail": "kien.main",
+        "documentation": {}
+    },
+    {
+        "label": "X_data",
+        "kind": 5,
+        "importPath": "kien.main",
+        "description": "kien.main",
+        "peekOfCode": "X_data = pickle.load(open('X_data.pkl', 'rb'))\ny_data = pickle.load(open('y_data.pkl', 'rb'))\nX_test = pickle.load(open('X_data_test.pkl', 'rb'))\nX_test.append(text_test)\ny_test = pickle.load(open('y_data_test.pkl', 'rb'))\ny_test.append(text_label)\n# create a count vectorizer object \ncount_vect = CountVectorizer(analyzer='word', token_pattern=r'\\w{1,}')\ncount_vect.fit(X_data)\n# transform the training and validation data using count vectorizer object",
+        "detail": "kien.main",
+        "documentation": {}
+    },
+    {
+        "label": "y_data",
+        "kind": 5,
+        "importPath": "kien.main",
+        "description": "kien.main",
+        "peekOfCode": "y_data = pickle.load(open('y_data.pkl', 'rb'))\nX_test = pickle.load(open('X_data_test.pkl', 'rb'))\nX_test.append(text_test)\ny_test = pickle.load(open('y_data_test.pkl', 'rb'))\ny_test.append(text_label)\n# create a count vectorizer object \ncount_vect = CountVectorizer(analyzer='word', token_pattern=r'\\w{1,}')\ncount_vect.fit(X_data)\n# transform the training and validation data using count vectorizer object\nX_data_count = count_vect.transform(X_data)",
+        "detail": "kien.main",
+        "documentation": {}
+    },
+    {
+        "label": "X_test",
+        "kind": 5,
+        "importPath": "kien.main",
+        "description": "kien.main",
+        "peekOfCode": "X_test = pickle.load(open('X_data_test.pkl', 'rb'))\nX_test.append(text_test)\ny_test = pickle.load(open('y_data_test.pkl', 'rb'))\ny_test.append(text_label)\n# create a count vectorizer object \ncount_vect = CountVectorizer(analyzer='word', token_pattern=r'\\w{1,}')\ncount_vect.fit(X_data)\n# transform the training and validation data using count vectorizer object\nX_data_count = count_vect.transform(X_data)\nX_test_count = count_vect.transform(X_test)",
+        "detail": "kien.main",
+        "documentation": {}
+    },
+    {
+        "label": "y_test",
+        "kind": 5,
+        "importPath": "kien.main",
+        "description": "kien.main",
+        "peekOfCode": "y_test = pickle.load(open('y_data_test.pkl', 'rb'))\ny_test.append(text_label)\n# create a count vectorizer object \ncount_vect = CountVectorizer(analyzer='word', token_pattern=r'\\w{1,}')\ncount_vect.fit(X_data)\n# transform the training and validation data using count vectorizer object\nX_data_count = count_vect.transform(X_data)\nX_test_count = count_vect.transform(X_test)\n# word level - we choose max number of words equal to 30000 except all words (100k+ words)\ntfidf_vect = TfidfVectorizer(analyzer='word', max_features=30000)",
+        "detail": "kien.main",
+        "documentation": {}
+    },
+    {
+        "label": "count_vect",
+        "kind": 5,
+        "importPath": "kien.main",
+        "description": "kien.main",
+        "peekOfCode": "count_vect = CountVectorizer(analyzer='word', token_pattern=r'\\w{1,}')\ncount_vect.fit(X_data)\n# transform the training and validation data using count vectorizer object\nX_data_count = count_vect.transform(X_data)\nX_test_count = count_vect.transform(X_test)\n# word level - we choose max number of words equal to 30000 except all words (100k+ words)\ntfidf_vect = TfidfVectorizer(analyzer='word', max_features=30000)\ntfidf_vect.fit(X_data) # learn vocabulary and idf from training set\nX_data_tfidf =  tfidf_vect.transform(X_data)\n# assume that we don't have test set before",
+        "detail": "kien.main",
+        "documentation": {}
+    },
+    {
+        "label": "X_data_count",
+        "kind": 5,
+        "importPath": "kien.main",
+        "description": "kien.main",
+        "peekOfCode": "X_data_count = count_vect.transform(X_data)\nX_test_count = count_vect.transform(X_test)\n# word level - we choose max number of words equal to 30000 except all words (100k+ words)\ntfidf_vect = TfidfVectorizer(analyzer='word', max_features=30000)\ntfidf_vect.fit(X_data) # learn vocabulary and idf from training set\nX_data_tfidf =  tfidf_vect.transform(X_data)\n# assume that we don't have test set before\nX_test_tfidf =  tfidf_vect.transform(X_test)\n# # ngram level - we choose max number of words equal to 30000 except all words (100k+ words)\n# tfidf_vect_ngram = TfidfVectorizer(analyzer='word', max_features=30000, ngram_range=(2, 3))",
+        "detail": "kien.main",
+        "documentation": {}
+    },
+    {
+        "label": "X_test_count",
+        "kind": 5,
+        "importPath": "kien.main",
+        "description": "kien.main",
+        "peekOfCode": "X_test_count = count_vect.transform(X_test)\n# word level - we choose max number of words equal to 30000 except all words (100k+ words)\ntfidf_vect = TfidfVectorizer(analyzer='word', max_features=30000)\ntfidf_vect.fit(X_data) # learn vocabulary and idf from training set\nX_data_tfidf =  tfidf_vect.transform(X_data)\n# assume that we don't have test set before\nX_test_tfidf =  tfidf_vect.transform(X_test)\n# # ngram level - we choose max number of words equal to 30000 except all words (100k+ words)\n# tfidf_vect_ngram = TfidfVectorizer(analyzer='word', max_features=30000, ngram_range=(2, 3))\n# tfidf_vect_ngram.fit(X_data)",
+        "detail": "kien.main",
+        "documentation": {}
+    },
+    {
+        "label": "tfidf_vect",
+        "kind": 5,
+        "importPath": "kien.main",
+        "description": "kien.main",
+        "peekOfCode": "tfidf_vect = TfidfVectorizer(analyzer='word', max_features=30000)\ntfidf_vect.fit(X_data) # learn vocabulary and idf from training set\nX_data_tfidf =  tfidf_vect.transform(X_data)\n# assume that we don't have test set before\nX_test_tfidf =  tfidf_vect.transform(X_test)\n# # ngram level - we choose max number of words equal to 30000 except all words (100k+ words)\n# tfidf_vect_ngram = TfidfVectorizer(analyzer='word', max_features=30000, ngram_range=(2, 3))\n# tfidf_vect_ngram.fit(X_data)\n# X_data_tfidf_ngram =  tfidf_vect_ngram.transform(X_data)\n# # assume that we don't have test set before",
+        "detail": "kien.main",
+        "documentation": {}
+    },
+    {
+        "label": "X_data_tfidf",
+        "kind": 5,
+        "importPath": "kien.main",
+        "description": "kien.main",
+        "peekOfCode": "X_data_tfidf =  tfidf_vect.transform(X_data)\n# assume that we don't have test set before\nX_test_tfidf =  tfidf_vect.transform(X_test)\n# # ngram level - we choose max number of words equal to 30000 except all words (100k+ words)\n# tfidf_vect_ngram = TfidfVectorizer(analyzer='word', max_features=30000, ngram_range=(2, 3))\n# tfidf_vect_ngram.fit(X_data)\n# X_data_tfidf_ngram =  tfidf_vect_ngram.transform(X_data)\n# # assume that we don't have test set before\n# X_test_tfidf_ngram =  tfidf_vect_ngram.transform(X_test)\n# # ngram-char level - we choose max number of words equal to 30000 except all words (100k+ words)",
+        "detail": "kien.main",
+        "documentation": {}
+    },
+    {
+        "label": "X_test_tfidf",
+        "kind": 5,
+        "importPath": "kien.main",
+        "description": "kien.main",
+        "peekOfCode": "X_test_tfidf =  tfidf_vect.transform(X_test)\n# # ngram level - we choose max number of words equal to 30000 except all words (100k+ words)\n# tfidf_vect_ngram = TfidfVectorizer(analyzer='word', max_features=30000, ngram_range=(2, 3))\n# tfidf_vect_ngram.fit(X_data)\n# X_data_tfidf_ngram =  tfidf_vect_ngram.transform(X_data)\n# # assume that we don't have test set before\n# X_test_tfidf_ngram =  tfidf_vect_ngram.transform(X_test)\n# # ngram-char level - we choose max number of words equal to 30000 except all words (100k+ words)\n# tfidf_vect_ngram_char = TfidfVectorizer(analyzer='char', max_features=30000, ngram_range=(2, 3))\n# tfidf_vect_ngram_char.fit(X_data)",
+        "detail": "kien.main",
+        "documentation": {}
+    },
+    {
+        "label": "svd",
+        "kind": 5,
+        "importPath": "kien.main",
+        "description": "kien.main",
+        "peekOfCode": "svd = TruncatedSVD(n_components=300, random_state=42)\nsvd.fit(X_data_tfidf)\nX_data_tfidf_svd = svd.transform(X_data_tfidf)\nX_test_tfidf_svd = svd.transform(X_test_tfidf)\n# from gensim.models import KeyedVectors \n# dir_path = os.path.dirname(os.path.realpath(os.getcwd()))\n# word2vec_model_path = os.path.join(dir_path, \"Data/vi/vi.vec\")\n# w2v = KeyedVectors.load_word2vec_format(word2vec_model_path)\n# vocab = w2v.wv.vocab\n# wv = w2v.wv",
+        "detail": "kien.main",
+        "documentation": {}
+    },
+    {
+        "label": "X_data_tfidf_svd",
+        "kind": 5,
+        "importPath": "kien.main",
+        "description": "kien.main",
+        "peekOfCode": "X_data_tfidf_svd = svd.transform(X_data_tfidf)\nX_test_tfidf_svd = svd.transform(X_test_tfidf)\n# from gensim.models import KeyedVectors \n# dir_path = os.path.dirname(os.path.realpath(os.getcwd()))\n# word2vec_model_path = os.path.join(dir_path, \"Data/vi/vi.vec\")\n# w2v = KeyedVectors.load_word2vec_format(word2vec_model_path)\n# vocab = w2v.wv.vocab\n# wv = w2v.wv\n# def get_word2vec_data(X):\n#     word2vec_data = []",
+        "detail": "kien.main",
+        "documentation": {}
+    },
+    {
+        "label": "X_test_tfidf_svd",
+        "kind": 5,
+        "importPath": "kien.main",
+        "description": "kien.main",
+        "peekOfCode": "X_test_tfidf_svd = svd.transform(X_test_tfidf)\n# from gensim.models import KeyedVectors \n# dir_path = os.path.dirname(os.path.realpath(os.getcwd()))\n# word2vec_model_path = os.path.join(dir_path, \"Data/vi/vi.vec\")\n# w2v = KeyedVectors.load_word2vec_format(word2vec_model_path)\n# vocab = w2v.wv.vocab\n# wv = w2v.wv\n# def get_word2vec_data(X):\n#     word2vec_data = []\n#     for x in X:",
+        "detail": "kien.main",
+        "documentation": {}
+    },
+    {
+        "label": "encoder",
+        "kind": 5,
+        "importPath": "kien.main",
+        "description": "kien.main",
+        "peekOfCode": "encoder = preprocessing.LabelEncoder()\ny_data_n = encoder.fit_transform(y_data)\ny_test_n = encoder.fit_transform(y_test)\nencoder.classes_\ndef train_model(classifier, X_data, y_data, X_test, y_test, is_neuralnet=False, n_epochs=5):       \n    X_train, X_val, y_train, y_val = train_test_split(X_data, y_data, test_size=0.1, random_state=42)\n    if is_neuralnet:\n        classifier.fit(X_train, y_train, validation_data=(X_val, y_val), epochs=n_epochs, batch_size=256)\n        val_predictions = classifier.predict(X_val)\n        test_predictions = classifier.predict(X_test)",
+        "detail": "kien.main",
+        "documentation": {}
+    },
+    {
+        "label": "y_data_n",
+        "kind": 5,
+        "importPath": "kien.main",
+        "description": "kien.main",
+        "peekOfCode": "y_data_n = encoder.fit_transform(y_data)\ny_test_n = encoder.fit_transform(y_test)\nencoder.classes_\ndef train_model(classifier, X_data, y_data, X_test, y_test, is_neuralnet=False, n_epochs=5):       \n    X_train, X_val, y_train, y_val = train_test_split(X_data, y_data, test_size=0.1, random_state=42)\n    if is_neuralnet:\n        classifier.fit(X_train, y_train, validation_data=(X_val, y_val), epochs=n_epochs, batch_size=256)\n        val_predictions = classifier.predict(X_val)\n        test_predictions = classifier.predict(X_test)\n        val_predictions = val_predictions.argmax(axis=-1)",
+        "detail": "kien.main",
+        "documentation": {}
+    },
+    {
+        "label": "y_test_n",
+        "kind": 5,
+        "importPath": "kien.main",
+        "description": "kien.main",
+        "peekOfCode": "y_test_n = encoder.fit_transform(y_test)\nencoder.classes_\ndef train_model(classifier, X_data, y_data, X_test, y_test, is_neuralnet=False, n_epochs=5):       \n    X_train, X_val, y_train, y_val = train_test_split(X_data, y_data, test_size=0.1, random_state=42)\n    if is_neuralnet:\n        classifier.fit(X_train, y_train, validation_data=(X_val, y_val), epochs=n_epochs, batch_size=256)\n        val_predictions = classifier.predict(X_val)\n        test_predictions = classifier.predict(X_test)\n        val_predictions = val_predictions.argmax(axis=-1)\n        test_predictions = test_predictions.argmax(axis=-1)",
+        "detail": "kien.main",
+        "documentation": {}
+    },
+    {
+        "label": "filename",
+        "kind": 5,
+        "importPath": "kien.test",
+        "description": "kien.test",
+        "peekOfCode": "filename = 'cnn.pkl'\nwith open(filename, 'rb') as file:\n    model = pickle.load(file)\n# Dữ liệu văn bản mới cần phân loại\ntext_samples = [\n    \"This is a positive review.\",\n    \"I don't like this product.\",\n    \"The movie was great!\",\n    \"The book was boring.\",\n]",
+        "detail": "kien.test",
+        "documentation": {}
+    },
+    {
+        "label": "text_samples",
+        "kind": 5,
+        "importPath": "kien.test",
+        "description": "kien.test",
+        "peekOfCode": "text_samples = [\n    \"This is a positive review.\",\n    \"I don't like this product.\",\n    \"The movie was great!\",\n    \"The book was boring.\",\n]\nprint(model)\n# Sử dụng mô hình để dự đoán nhãn của các văn bản mới\npredictions = model.predict(text_samples)\n# In kết quả dự đoán",
+        "detail": "kien.test",
+        "documentation": {}
+    },
+    {
+        "label": "predictions",
+        "kind": 5,
+        "importPath": "kien.test",
+        "description": "kien.test",
+        "peekOfCode": "predictions = model.predict(text_samples)\n# In kết quả dự đoán\nfor text, label in zip(text_samples, predictions):\n    print(f\"Văn bản: '{text}'\")\n    print(f\"Nhãn dự đoán: {label}\")\n    print()",
+        "detail": "kien.test",
         "documentation": {}
     },
     {

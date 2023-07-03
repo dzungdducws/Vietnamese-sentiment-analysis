@@ -69,7 +69,7 @@ for cv in cvs:
 
     print(f"Fold: {cv}")
     # print(word2id) In ra các từ
-    print(f"Tổng số từ trong từ điển chứa từ vựng : {len(word2id)}")
+    # print(f"Tổng số từ trong từ điển chứa từ vựng : {len(word2id)}")
     print(f"Chiều dài tối đa của các câu: {maxlen}")
     print(f"Tổng chiều dài các câu: {avglen}")
     print(f"số câu có chiều dài lớn hơn 250: {count100}")

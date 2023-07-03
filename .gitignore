@@ -2,3 +2,6 @@ data/**/*.npy
 CNN-LSTM-weights/*
 __pycache__
 .vscode
+
+kien/test_data/test_data/
+kien/train_data/train_data/
